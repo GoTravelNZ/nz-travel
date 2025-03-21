@@ -1,5 +1,7 @@
 # NZ Travel
 
+![NZ Travel](https://github.com/steven-gw-s/nz-travel/actions/workflows/nztravel.yml/badge.svg)
+
 This is a travel website for New Zealand. It is a project for the Code Institute Full Stack Developer course. The website is designed to be a travel guide for New Zealand, providing comprehensive information on various aspects of travel and exploration.
 
 ## Features
