@@ -29,12 +29,16 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: nz-travel
 
       - name: Run lint
         run: npm run lint
+        working-directory: nz-travel
 
       - name: Build project
         run: npm run build
+        working-directory: nz-travel
 
       - name: Run tests
         run: npm test
+        working-directory: nz-travel
