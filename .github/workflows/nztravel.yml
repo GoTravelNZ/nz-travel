@@ -27,11 +27,17 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
+      - name: Debug directory structure
+        run: ls -la nz-travel/nz-travel
+
       - name: Install dependencies
         run: npm install
+        working-directory: nz-travel/nz-travel
 
       - name: Run lint
         run: npm run lint
+        working-directory: nz-travel/nz-travel
 
       - name: Build project
         run: npm run build
+        working-directory: nz-travel/nz-travel
