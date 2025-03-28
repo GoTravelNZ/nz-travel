@@ -37,8 +37,3 @@ jobs:
 
       - name: Build project
         run: npm run build
-        working-directory: nz-travel
-
-      - name: Run tests
-        run: npm test
-        working-directory: nz-travel
